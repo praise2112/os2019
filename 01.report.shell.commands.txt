@@ -42,4 +42,9 @@ $ last: praise   tty7         :0               Wed Apr  3 01:03    gone - no log
 
 $ finger: The program 'finger' is currently not installed. You can install it by typing:
 	sudo apt install finger
+$ w:  23:30:18 up  1:27,  1 user,  load average: 2.42, 2.39, 2.31
+      USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+      praise   tty7     :0               01:03     ?    19:47   0.12s /sbin/upstart -
+
+	
 
