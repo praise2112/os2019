@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *Put your name here*
-* ID: *Put your ID here*
+* Name: Oketola Praise Oluwabamise
+* ID: USTH-BI8-137
 
 
