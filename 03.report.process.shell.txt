@@ -1,0 +1,25 @@
+1) $ ps -A:   PID TTY          TIME CMD
+	      1 ?        00:00:01 systemd
+	      2 ?        00:00:00 kthreadd
+	      4 ?        00:00:00 kworker/0:0H
+	      6 ?        00:00:00 mm_percpu_wq
+	      7 ?        00:00:00 ksoftirqd/0
+	      8 ?        00:00:01 rcu_sched
+	      9 ?        00:00:00 rcu_bh
+	      10 ?        00:00:00 migration/0
+
+2) $ gnome-calculator : Opens calculator
+
+3) $ ps aux | grep -i gnome-calculator: praise    5968  0.0  0.0  21292   944 pts/17   R+   11:07   0:00 grep --color=auto -i gnome-calculator
+
+4) $ ps -fp 5927: UID        PID  PPID  C STIME TTY          TIME CMD
+		 praise    5927  3000  0 11:05 pts/2    00:00:00 gnome-calculator
+
+5) $ kill -STOP 16143: Application pauses
+
+6)$ kill -CONT 5927: Resumes application
+
+7)$ kill -KILL 5927: Terminate application
+
+
+
