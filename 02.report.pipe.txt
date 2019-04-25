@@ -1,0 +1,35 @@
+$ find | grep "list" : ./.local/share/zeitgeist/fts.index/postlist.baseB
+		       ./.local/share/zeitgeist/fts.index/termlist.baseA
+		       ./.local/share/zeitgeist/fts.index/termlist.baseB
+		       ./.local/share/zeitgeist/fts.index/postlist.DB
+		       ./.local/share/zeitgeist/fts.index/termlist.DB
+	               ./.local/share/zeitgeist/fts.index/postlist.baseA
+		       ./.local/share/applications/mimeapps.list
+		       ./.config/google-chrome/Default/Extensions/dmpojjilddefgnhiicjcmhbkjgbbclob/1.8.7_0/img/ext/simple-to-do-list.png
+		       ./.config/google-chrome/Default/Extensions/gidgenkbbabolejbgbpnhbimgjbffefm/2.1.
+
+$ wc -l /etc/passwd: 40 /etc/passwd
+
+$  free -m:                   total        used        free      shared  buff/cache   available
+		Mem:           7841        1219        5357         507        1264        5819
+		Swap:         15258           0       15258
+
+$ cat /proc/meminfo: MemTotal:        8030144 kB
+		     MemFree:         5243284 kB
+	       	     MemAvailable:    5730324 kB
+		     Buffers:           39984 kB
+		     Cached:          1183780 kB
+		     SwapCached:            0 kB
+		     Active:          1629100 kB
+		     Inactive:         890244 kB
+		     Active(anon):    1297040 kB
+		     Inactive(anon):   538804 kB
+
+$ find -type f -name *.jpg | wc -l: find: ‘./.dbus’: Permission denied
+				    find: ‘./.cache/dconf’: Permission denied
+				    18
+
+
+
+
+
