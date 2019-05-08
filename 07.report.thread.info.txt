@@ -1,0 +1,19 @@
+1) Find number of process (Firefox):
+	 ~$ ps aux | grep -i firefox: praise    4069 34.6  3.1 1887164 252084 ?      Sl   08:54   0:05 /usr/lib/firefox/firefox
+				      praise    4162  6.8  1.6 1578028 131984 ?      Sl   08:54   0:00 /usr/lib/firefox/firefox -                                  
+                                      contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 170145 -schedulerPrefs 0001,2 -                                    
+                                      parentBuildID 20190215001400 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/       
+                                      omni.ja -appdir /usr/lib/firefox/browser 4069 true tab
+				      praise    4241  2.6  1.3 1551712 105184 ?      Sl   08:54   0:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser
+                                      -prefsLen 216 -prefMapSize 170145 -schedulerPrefs 0001,2 -parentBuildID 20190215001400 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/ 					      omni.ja -appdir /usr/lib/firefox/browser 4069 true tab
+        ~$ ps -o nlwp 4069:   NLWP
+		  	       71 
+2) Count number of subdirectory in /proc/<processId>/tasks
+	~$ find /proc/4069/task -type f -print | wc -l: 150808
+
+	
+
+
+
+
+
